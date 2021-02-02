@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_marginVertical="5dp"
+    android:background="#ddd"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID: "
+        android:textColor="#000"
+        android:id="@+id/idTransacaoLayout"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/usuarioTransacaoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usuário:"
+        android:textColor="#000"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/acaoTransacaoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome:"
+        android:textColor="#000"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/papelTransacaoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marca:"
+        android:textColor="#000"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/dataTransacaoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preço:"
+        android:textColor="#000"
+        android:textSize="14dp" />
+
+</LinearLayout>

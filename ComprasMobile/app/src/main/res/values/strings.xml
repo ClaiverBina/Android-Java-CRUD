@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AgendaMobile</string>
+    <string-array name="lembretes">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+</resources>
+
